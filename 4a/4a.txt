@@ -15,9 +15,9 @@ INSERT INTO category_tb values (2001, 'Python'),
 book
 
 INSERT INTO book_tb values (3001, 'AngularJS Essentials', 2004, 1001, 2019, '1.jpg'),
-(3002, 'Pyhton GUI Programming With Tkinter', 2001, 1002, 2020, '2.jpg'),
-(3003, 'Unity 2018 By Example', 2002, 1003, 2020, '3.jpg'),
-(3004, 'Rust High Performance', 2003, 1004, 2019, '4.jpg');
+(3002, 'Pyhton GUI P W T', 2001, 1002, 2020, '2.jpg'),
+(3003, 'Unity 2018 By E', 2002, 1003, 2020, '3.jpg'),
+(3004, 'Rust High Performan', 2003, 1004, 2019, '4.jpg');
 
 -Buatlah query DB/MYSQL untuk menampilkan data sebagai berikut :
 
