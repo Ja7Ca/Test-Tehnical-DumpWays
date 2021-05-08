@@ -1,0 +1,40 @@
+writer
+
+INSERT INTO writer_tb VALUES (1001, 'Ricky Bar'),
+(1002, 'Egi Sajak'),
+(1003, 'Aziz Union'),
+(1004, 'Haris Astina');
+
+category
+
+INSERT INTO category_tb values (2001, 'Python'),
+(2002, 'Java'),
+(2003, 'PHP'),
+(2004, 'Java Scripth');
+
+book
+
+INSERT INTO book_tb values (3001, 'AngularJS Essentials', 2004, 1001, 2019, '1.jpg'),
+(3002, 'Pyhton GUI Programming With Tkinter', 2001, 1002, 2020, '2.jpg'),
+(3003, 'Unity 2018 By Example', 2002, 1003, 2020, '3.jpg'),
+(3004, 'Rust High Performance', 2003, 1004, 2019, '4.jpg');
+
+-Buatlah query DB/MYSQL untuk menampilkan data sebagai berikut :
+
+-Tampilkan hasil dari query sebagai berikut :
+
+-Tampilkan seluruh data dari table book
+select * from book_tb;
+
+-Tampilkan seluruh data book, category dan penulis
+select * from book_tb, writer_tb, category_tb WHERE book_tb.writer_id = writer_tb.writer_id and book_tb.category_id = category_tb.category_id;
+
+-Tampilkan seluruh data penulis
+select * from writer_tb;
+
+-Tampilkan spesifik book beserta, category maupun penulis.
+desc book_tb;
+desc writer_tb;
+desc category_tb;
+
+-Screen shootkan juga hasil query POST / menambah data.
